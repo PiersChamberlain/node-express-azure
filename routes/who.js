@@ -10,6 +10,7 @@ router.get('/', (req, res) => {
 
   res.render('who', {
     title: 'Who We Are',   
+    stylesheet: 'assets/css/main.css', 
     banner: bannerhtml
   });
 });

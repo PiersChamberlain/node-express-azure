@@ -10,9 +10,10 @@ router.get('/', (req, res) => {
 
   res.render('contact', {
     title: 'Contact Us', 
+    stylesheet: 'assets/css/main.css', 
     banner: bannerhtml  
   });
-  
+
 });
 
 module.exports = router;

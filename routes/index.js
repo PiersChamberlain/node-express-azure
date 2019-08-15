@@ -10,6 +10,7 @@ router.get('/', (req, res) => {
 
   res.render('index', {
     title: 'Welcome to Contoso!', 
+    stylesheet: 'assets/css/main.css', 
     banner: bannerhtml  
   });
 });

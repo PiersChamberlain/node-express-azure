@@ -32,5 +32,5 @@ steps:
     command: 'publish'
     workingDir: '$(System.DefaultWorkingDirectory)'
     publishRegistry: 'useFeed'
-    publishFeed: 'f5b1a1c6-b77f-4c4a-b502-40eba6789680''
+    publishFeed: 'f5b1a1c6-b77f-4c4a-b502-40eba6789680'
   

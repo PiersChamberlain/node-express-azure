@@ -1,4 +1,5 @@
 const config = require('./config');
+const subst = require('./substitutions.json')
 const express = require('express');
 const path = require('path');
 const exphbs = require('express-handlebars');
@@ -22,3 +23,5 @@ app.use('/contact', contact);
 app.listen(config.port, () => {
   console.log(`Demo app is running on ${config.port}!`);
 });
+
+global.env_name = subst.BannerText
